@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="@android:color/darker_gray"
+        app:cardCornerRadius="20dp"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        app:cardElevation="10dp"
+        android:backgroundTint="#e7deff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#1e0160">
+            </TextView>
+
+            <TextView
+                android:id="@+id/foodname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textColor="#1e0160">
+            </TextView>
+            <TextView
+                android:id="@+id/fooddescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingStart="5dp"
+                android:textColor="@color/black">
+            </TextView>
+            <TextView
+                android:id="@+id/otheritems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="23sp"
+                android:text="Other items:"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:textColor="#1e0160">
+            </TextView>
+            <TextView
+                android:id="@+id/others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
